@@ -1,17 +1,12 @@
-To run the application
+<h1>To run the application</h1>
 
-1. Ensure MongoDB is running with the cmd
+<h2>Ensure MongoDB is running</h2>
+1. & "path_to\mongod.exe" --dbpath="path_to_a_folder_to_store_the_data"
 
-& "C:\Users\yvonn\mongodb\bin\mongod.exe" --dbpath="C:\UnBiasMe\mongodb-data"
+<h2>Run the server</h2>
+1. cd ./server 
+2. npm run dev
 
-2. Run the server
-
-cd ./server 
-
-npm run dev
-
-3. Run the client 
-
-cd ./client
-
-npm run serve
+<h2>Run the client</h2>
+1. cd ./client
+2. npm run serve
