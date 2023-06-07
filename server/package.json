@@ -1,0 +1,29 @@
+{
+  "name": "unbiasme",
+  "version": "1.0.0",
+  "description": "This application is developed to help eradicate unconscious biasness in workplace",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js --ext hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.4.0",
+    "mongoose": "^5.3.16",
+    "postman-request": "^2.88.1-postman.32",
+    "validator": "^13.9.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

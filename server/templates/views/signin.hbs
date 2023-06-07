@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <p class="texto">Login</p>
+        <link rel="stylesheet" href="/css/signup.css">
+    </head>
+    <body>
+        <div class="Registro">
+            {{!-- <form id="signup-form"> --}}
+            <form action="/signin" method="POST" enctype="application/json">
+                <span class="fontawesome-user"></span><input type="text" name="username" required placeholder="Username" autocomplete="off"> 
+                <span class="fontawesome-lock"></span><input type="password" name="password"  required placeholder="password" autocomplete="off"> 
+                <button id="button" type="submit">Sign in</button>
+            </form>
+        </div>
+        <div id="error">
+            {{error}}
+            {{authenticateMessage}}
+        </div>  
+        
+        {{!-- <script src="/js/app-client.js"></script> --}}
+    </body>
+
+</html>
+
+
